@@ -1,0 +1,7 @@
+#Sun May 06 20:03:11 CST 2018
+base.0=D\:\\AndroidStudioWork\\work_two\\DebrisTravels\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a6f70a1248b8b570e160ff389a0e12893432b88e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\AndroidStudioWork\\work_two\\DebrisTravels\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2d642943fcd4282a33b36b50ba22e4d6e3743e02\\classes.dex
+base.1=D\:\\AndroidStudioWork\\work_two\\DebrisTravels\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2d642943fcd4282a33b36b50ba22e4d6e3743e02
+file.0=D\:\\AndroidStudioWork\\work_two\\DebrisTravels\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a6f70a1248b8b570e160ff389a0e12893432b88e\\classes.dex

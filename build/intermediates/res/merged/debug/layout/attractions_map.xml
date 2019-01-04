@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+ <com.baidu.mapapi.map.MapView  
+    android:id="@+id/bmapView"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:clickable="true" />
+
+  
+   
+	    <LinearLayout
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentRight="true"
+	       android:layout_alignWithParentIfMissing="false"
+	       android:layout_marginBottom="50dip"
+	       android:layout_marginRight="10dip"
+	       android:orientation="vertical" >
+	
+	       <Button
+	           android:id="@+id/resetLoc"
+	           android:layout_width="48dp"
+	           android:layout_height="fill_parent"
+	           android:layout_marginLeft="2dip"
+	           android:layout_marginRight="2dip"
+	           android:background="@drawable/zoom_in" />
+	     
+	    </LinearLayout>
+	    
+	    
+	    
+	    
+	    
+<RelativeLayout 
+    android:id="@+id/show_hotel_info"
+    android:layout_width="match_parent"
+    android:layout_height="220dp" 
+    android:layout_alignParentBottom="true"
+    android:visibility="gone"
+    android:background="#cc4e5a6b"
+    >
+    
+    <ImageView
+        android:id="@+id/hotel_image"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/img_border"
+        android:scaleType="fitXY"
+        android:src="@drawable/a01" >
+    </ImageView>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_map_bottom" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/hotel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android开发小队"
+                android:textColor="#fff5eb" />
+
+            <TextView
+                android:id="@+id/hotel_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="距离200米"
+                android:textColor="#fff5eb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_zan"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/num_hotel_praise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="666"
+                android:layout_gravity="center"
+                android:textColor="#fff5eb" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+</RelativeLayout>
+	    
+	   
+
+ 
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a id="icon-location"  style="width: 10%;">
+			<span class="mui-icon mui-icon-location" style="color: black;"></span>
+			<!--<span class="mui-tab-label"style="color: black;">我的位置</span>-->
+		</a> 
+	    <button type="button" class="mui-btn" style="background-color: gainsboro;width: 90%;"><span class="mui-icon mui-icon-search" style="font-size: medium;">搜索地点</span></button>
+	</header>
+<nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item mui-active">
+        <span class="mui-icon mui-icon-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item">
+        <span class="mui-icon mui-icon-map"></span>
+        <span class="mui-tab-label">地图</span>
+    </a>
+    <a class="mui-tab-item" href="javascript:Outmes();">
+        <span class="mui-icon mui-icon-plusempty"style="background-color:orange;width: 50px;height: 36px;color: white;font-size: 36px;margin-bottom: 10px;"></span>
+    </a>
+    <a class="mui-tab-item">
+        <span class="mui-icon mui-icon-image"></span>
+        <span class="mui-tab-label">发现</span>
+    </a>
+    <a class="mui-tab-item">
+        <span class="mui-icon mui-icon-person"></span>
+        <span class="mui-tab-label">我的</span>
+    </a>
+</nav>
+
+<div class="mui-content">
+	<div class="mui-slider">
+		<div class="mui-slider-group mui-slider-loop" >
+			<div class="mui-slider-item mui-slider-item-duplicate">
+				<a href="#"><img src="../imgs/gd_3.jpg" /></a>
+			</div>
+			<div class="mui-slider-item">
+				<a href="#"><img src="../imgs/gd_1.jpg" /></a>
+			</div>
+			<div class="mui-slider-item">
+				<a href="#"><img src="../imgs/gd_2.jpg" /></a>
+			</div>
+			<div class="mui-slider-item">
+				<a href="#"><img src="../imgs/gd_3.jpg" /></a>
+			</div>
+			<div class="mui-slider-item mui-slider-item-duplicate">
+				<a href="#"><img src="../imgs/gd_1.jpg" /></a>
+			</div>
+		</div>
+		<div class="mui-slider-indicator">
+			<div class="mui-indicator mui-active"></div>
+			<div class="mui-indicator"></div>
+			<div class="mui-indicator"></div>
+			
+		</div>
+	</div>
+
+
+	<div class="mui-card" style="margin: 10px;">
+		<button type="button" onclick="toMSGJ();" style="width: 24%;" >名胜古迹</button>
+		<button type="button" onclick="toMSGJ();" style="width: 24%;">游乐园</button>
+		<button type="button" onclick="toMSGJ();" style="width: 24%;">美食街</button>
+		<button type="button" onclick="toMSGJ();" style="width: 24%;">特色风景</button>
+	</div>
+	<!--<ul class="mui-table-view">
+		<!--<li class="mui-table-view-cell "><a href="#" class="mui-navigate-right">项目一</a></li>    //列表
+		<li class="mui-table-view-cell "><a href="#" class="mui-navigate-right">项目一<span class="mui-badge mui-badge-primary">11</span></a></li>-->
+			
+		<!--图片列表：-->
+		<!--<li class="mui-table-view-cell mui-media">
+			<a href="#">
+				<img class="mui-media-object mui-pull-left" src="../imgs/gd_1.jpg" />
+				<div class="mui-media-body">
+					幸福<!-- 标题；用p标记来详细描述-->
+					<!--<p class="mui-ellipsis">
+						一路看过千山万水
+					</p>
+				</div>
+			</a>
+		</li>
+	</ul>-->
+	<div class="mui-card" style="margin: 10px;">
+		<div class="mui-card-header" style="padding: 5px;">
+			<img src="../imgs/tx01.jpg" width="40" class="mui-pull-left" />
+			<button class="mui-btn mui-pull-right" style="background-color: orange;color: white;">+ 关注</button>
+			<div class="mui-media-body" style="padding: 5px;">
+				小宇
+				<p>发表于2018-01-01 15:30</p>
+			</div>
+		</div>
+		<div class="mui-card-content">
+			<img src="../imgs/yk01.jpg" width="100%" />
+			
+		</div>
+		<div class="mui-card-footer">
+			<div class="mui-media-body" style="padding:5px;">
+				<span>转发</span>
+				<span>评论</span>
+				<span>点赞</span>
+			</div>
+		</div>
+	</div>
+	<div class="mui-card" style="margin: 10px;">
+		<div class="mui-card-header" style="padding: 5px;">
+			<img src="../imgs/tx02.jpg" width="40" class="mui-pull-left" />
+			<button class="mui-btn mui-pull-right" style="background-color: orange;color: white;">+ 关注</button>
+			<div class="mui-media-body" style="padding: 5px;">
+				筱虞
+				<p>发表于2018-01-01 14:30</p>
+			</div>
+		</div>
+		<div class="mui-card-content">
+			<img src="../imgs/yk02.jpg" width="100%" />
+			
+		</div>
+		<div class="mui-card-footer">
+			<div class="mui-media-body" style="padding:5px;">
+				<span>转发</span>
+				<span>评论</span>
+				<span>点赞</span>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript">
+//图片轮播自动按钮：
+//	mui.plusReady(function(){
+//		var slider = mui('.mui-slider');
+//		slider.slider({interval:1000});
+//      slider.slider().gotoItem(2);//跳转到第三个画面
+//	});
+function toMSGJ(){
+	var mask = mui.createMask();
+	mask.show();
+}
+function Outmes(){
+	
+}
+</script>
+</body>
+</html>

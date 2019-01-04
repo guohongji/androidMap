@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/res/layout/diary_viewpager_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/home_viewpager_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/item.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/photo_viewpager_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-hdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-hdpi/find.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-hdpi/find.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-mdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-xhdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-xxhdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/mipmap-xxxhdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/values-v21" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/values/styles.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/debristravels/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/myinfo/Fragment_One.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/myinfo/Fragment_Three.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

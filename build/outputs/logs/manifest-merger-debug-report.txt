@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:3:5-40
+	android:versionName
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:5:5-30
+		INJECTED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:4:5-28
+		INJECTED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:7:5-9:41
+MERGED from [com.gyf.barlibrary:barlibrary:2.3.0] C:\Users\Administrator\.android\build-cache\a12848423f10778d98f19f984cb7e62c4a58d5f4\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] C:\Users\Administrator\.android\build-cache\9f48190fd285541e35ad14e79d7d754dcde5d33d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\902d2e4f9a63260ab77e94c77cc06259ffddab9a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\db705111a00c87f6ad093ff5f7c90bf51a3588f6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\038b5a3e50487a744080d39bc7c3080ad4ceba98\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5bcef514cc71ff8250bda4436bca40e2491f7375\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5ee8d9ceb100affe04b8a3530818d2398837e9cb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\6a7891eb93e2cf362e2c74ddfaf7b6e27e3fa77d\output\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d6916b88ec5ad2781216bc7da824a5bfb64270a3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\400572c3237912a025babcf6290a0861f8b02897\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\55cdc5cef5b281bb56baefef62fb222231149ef0\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f46b7e4fc49236e32d71db548c9da0a94d00c9a2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fcd100f4f939e5fd4f02690c9e8ccfb915f26f56\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\c097e810b4d2f33885720a0153f4c3f396594219\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:14:1-62
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:14:18-60
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:16:1-71
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:16:18-68
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:18:1-81
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:18:18-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:20:1-72
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:20:18-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:22:1-76
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:22:18-74
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:24:1-69
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:24:18-66
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:26:1-64
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:26:18-61
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:28:1-61
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:28:18-58
+application
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:32:5-66:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] C:\Users\Administrator\.android\build-cache\9f48190fd285541e35ad14e79d7d754dcde5d33d\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\db705111a00c87f6ad093ff5f7c90bf51a3588f6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\038b5a3e50487a744080d39bc7c3080ad4ceba98\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5bcef514cc71ff8250bda4436bca40e2491f7375\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5ee8d9ceb100affe04b8a3530818d2398837e9cb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v13:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\6a7891eb93e2cf362e2c74ddfaf7b6e27e3fa77d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d6916b88ec5ad2781216bc7da824a5bfb64270a3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\400572c3237912a025babcf6290a0861f8b02897\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\55cdc5cef5b281bb56baefef62fb222231149ef0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f46b7e4fc49236e32d71db548c9da0a94d00c9a2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fcd100f4f939e5fd4f02690c9e8ccfb915f26f56\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\c097e810b4d2f33885720a0153f4c3f396594219\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:35:9-41
+	android:supportsRtl
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:36:9-35
+	android:allowBackup
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:33:9-35
+	android:icon
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:34:9-45
+	android:theme
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:38:9-40
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:37:9-60
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:40:10-42:60
+	android:value
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:42:9-57
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:41:9-48
+service#com.baidu.location.f
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:44:9-114
+	android:enabled
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:44:80-102
+	android:process
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:44:54-79
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:44:18-53
+activity#com.example.debristravels.MainActivity
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:46:9-54:20
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:47:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:52:27-74
+activity#com.example.debristravels.AttractionFraActivity
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:56:10-59:20
+	android:label
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:58:13-45
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:57:13-50
+activity#com.example.debristravels.MyCamera
+ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:61:9-63:36
+	android:name
+		ADDED from D:\AndroidStudioWork\work_two\DebrisTravels\AndroidManifest.xml:62:13-37
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\902d2e4f9a63260ab77e94c77cc06259ffddab9a\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\db705111a00c87f6ad093ff5f7c90bf51a3588f6\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\038b5a3e50487a744080d39bc7c3080ad4ceba98\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5bcef514cc71ff8250bda4436bca40e2491f7375\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\5ee8d9ceb100affe04b8a3530818d2398837e9cb\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v13:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\6a7891eb93e2cf362e2c74ddfaf7b6e27e3fa77d\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d6916b88ec5ad2781216bc7da824a5bfb64270a3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\400572c3237912a025babcf6290a0861f8b02897\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\55cdc5cef5b281bb56baefef62fb222231149ef0\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f46b7e4fc49236e32d71db548c9da0a94d00c9a2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\fcd100f4f939e5fd4f02690c9e8ccfb915f26f56\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\c097e810b4d2f33885720a0153f4c3f396594219\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f4f06b8d6179ab62109fb34f678e8e81264d3b74\output\AndroidManifest.xml:26:9-47
